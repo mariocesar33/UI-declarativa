@@ -4,7 +4,7 @@ import { Divider as ChakraDivider, Grid } from '@chakra-ui/core';
 const Divider: React.FC = () => {
   return (
     <Grid
-      gridAutoColumns="1fr 1fr"
+      gridTemplateColumns="1fr 1fr"
       columnGap={12}
       opacity={0.4}
     >
